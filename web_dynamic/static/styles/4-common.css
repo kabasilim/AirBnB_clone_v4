@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+    --font-very-small: 0.9em;
+    --font-small: 1.0em;
+    --font-medium: 1.1em;
+    --font-large: 1.5em;
+    --font-largest: 2.0em;
+    overflow: auto;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    color: #484848;
+    font-size: 14px;
+    font-family: Circular, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    width: 100%;
+    flex: 1 0 auto;
+}
+
+@media (max-width: 480px) {
+    html {
+        height: 100%;
+        --font-very-small: 0.8em;
+        --font-small: 0.9em;
+        --font-medium: 1.1em;
+        --font-large: 1.5em;
+        --font-largest: 2.0em;
+    }
+}
